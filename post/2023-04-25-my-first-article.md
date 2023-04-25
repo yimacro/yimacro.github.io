@@ -1,4 +1,4 @@
-\---
+---
 
 layout: post
 
@@ -6,7 +6,7 @@ title: 博客的第一篇文章
 
 categories: [Life]
 
-\---
+---
 
 
 
@@ -14,7 +14,7 @@ categories: [Life]
 
 
 
-**#### 后面要写**
+#### 后面要写
 
 首先，感谢[manateelazycat](https://manateelazycat.github.io/)，github的上分享让我有了分享的冲动。我也觉得要产生自己的东西首先要尽快的产生某个东西，然后在此基础上有自己的理解合改进
 
