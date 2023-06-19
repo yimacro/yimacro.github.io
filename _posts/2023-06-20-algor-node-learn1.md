@@ -1,10 +1,14 @@
 ---
 layout: post
+
 title: 算法：链表学习1
+
 categories: [数据结构算法]
+
+
 ---
 
-### 算法：链表学习1
+
 
 #### [21. 合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/)
 
