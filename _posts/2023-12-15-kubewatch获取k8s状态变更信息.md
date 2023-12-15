@@ -28,11 +28,11 @@ github源码地址：[GitHub - robusta-dev/kubewatch: Watch k8s events and trigg
 
 2. 代码编译 go build 生成kubewatch可执行文件
 
-   ![image-20231208154624872](../pics/post/image-20231208154624872.png)
+   ![image-20231208154624872](https://yimacro.github.io/pics/post/image-20231208154624872.png)
 
 3. 验证是否正常执行 
 
-   ![image-20231208154807601](../pics/post/image-20231208154807601.png)
+   ![image-20231208154807601](https://yimacro.github.io/pics/post/image-20231208154807601.png)
 
 4. 执行如下命令启动，这里推送到webhook地址
 
@@ -44,11 +44,11 @@ github源码地址：[GitHub - robusta-dev/kubewatch: Watch k8s events and trigg
 
 5. 在home目录下生成配置文件，也可以直接修改配置文件
 
-   ![image-20231208155102859](../pics/post/image-20231208155102859.png)
+   ![image-20231208155102859](https://yimacro.github.io/pics/post/image-20231208155102859.png)
 
 6. 启动完成，编写处理程序验证（这里配置后pod状态有变更会发送信息到webhook，这时可以根据发送信息定位到代码）
 
-   ![image-20231208155249503](../pics/post/image-20231208155249503.png)
+   ![image-20231208155249503](https://yimacro.github.io/pics/post/image-20231208155249503.png)
 
 * demo编写与运行（其中WebhookMessage、EventMeta struct来之kubewatch的源码）
 
@@ -119,7 +119,7 @@ github源码地址：[GitHub - robusta-dev/kubewatch: Watch k8s events and trigg
 
   1. 上传到服务器，执行代码
 
-     ![image-20231208162723151](../pics/post/image-20231208162723151.png)
+     ![image-20231208162723151](https://yimacro.github.io/pics/post/image-20231208162723151.png)
 
   2. 触发pod变更，验证是否能收到消息
 
@@ -131,11 +131,11 @@ github源码地址：[GitHub - robusta-dev/kubewatch: Watch k8s events and trigg
 
      kubewatch能成功发送信息
 
-     ![image-20231208162942773](../pics/post/image-20231208162942773.png)
+     ![image-20231208162942773](https://yimacro.github.io/pics/post/image-20231208162942773.png)
 
      demo能正常接收打印信息
 
-     ![image-20231208162843525](../pics/post/image-20231208162843525.png)
+     ![image-20231208162843525](https://yimacro.github.io/pics/post/image-20231208162843525.png)
 
   ps: 
 
