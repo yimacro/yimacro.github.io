@@ -10,6 +10,8 @@
         <link rel="stylesheet" media="screen and (min-width: 600px)" href="{{site.url}}/styles/navigatebar.css">
         <link rel="stylesheet" media="screen and (max-width: 600px)" href="{{site.url}}/styles/navigatebar_mobile.css">
         <link rel="stylesheet" href="{{site.url}}/theme/highlight.css">
+        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
     </head>
     <body>
         {% include navigatebar.html %}
@@ -32,6 +34,23 @@
             <div class="content">
                 {{ content }}
             </div>
+              <!-- Gitalk 评论 start  -->
+              <div id="gitalk-container"></div>
+                  <script type="text/javascript">
+                  var title = location.pathname.substr(0, 50);//截取路径的前50个字符作为标识符
+                  var gitalk = new Gitalk({
+                  // gitalk的主要参数
+                      clientID: `a59f889ede68abf3b00f`,
+                      clientSecret: `741948444d3311a7d113e1d3c0ffc5cba06081af`,
+                      repo: `https://github.com/yimacro/yimacro.github.io`,
+                      owner: 'yimacro',
+                      admin: ['yimacro@gmail.om'],
+                      id: location.pathname,//因为这里不能超过50字符，所以做了处理，当超过50时自动截取前50
+                 
+                  });
+                  gitalk.render('gitalk-container');
+                  </script>
+              <!-- Gitalk end -->
         </div>
     </body>
 </html>
