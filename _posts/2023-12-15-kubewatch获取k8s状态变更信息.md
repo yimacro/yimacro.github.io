@@ -14,7 +14,6 @@ categories: [云]
 
 ### kubewatch 获取k8s状态变更信息
 
-*[Yimacro](https://yimacro.github.io/)关注：[公众号]()*
 
 kubewatch 是一个 Kubernetes 观察程序，用于将通知发布到可用的协作中心/通知通道。在 k8s 集群中运行它，您将通过 webhook 获得事件通知。
 
@@ -141,3 +140,4 @@ github源码地址：[GitHub - robusta-dev/kubewatch: Watch k8s events and trigg
 
   1. demo执行时遇到奇怪的问题，demo程序收不到不打印任何信息，直到http://127.0.0.1:8080把webhook重新修改地址才接收到打印，后面再改回去http://127.0.0.1:8080/webhook又能正常返回了。
 
+ from: *[Yimacro](https://yimacro.github.io/)关注：[公众号](https://mp.weixin.qq.com/s?__biz=Mzg4Njc0NTY0OQ==&mid=2247483746&idx=1&sn=ee6d72ec1250512f7d38d5dff456eb80&chksm=cf95be3cf8e2372ad9914c0e2dcaf2040139d410e6f6bfea6b1bb457a1b3d53d4494aa7ad096#rd)*
