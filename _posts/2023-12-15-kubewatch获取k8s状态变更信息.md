@@ -21,7 +21,7 @@ kubewatch 是一个 Kubernetes 观察程序，用于将通知发布到可用的�
 
 github源码地址：[GitHub - robusta-dev/kubewatch: Watch k8s events and trigger Handlers](https://github.com/robusta-dev/kubewatch)
 
-* kubewatch安装，步骤如下
+kubewatch安装，步骤如下:
 
 1. 克隆代码 git clone https://github.com/bitnami-labs/kubewatch.git
 
@@ -49,7 +49,7 @@ github源码地址：[GitHub - robusta-dev/kubewatch: Watch k8s events and trigg
 
    ![image-20231208155249503](https://yimacro.github.io/pics/post/image-20231208155249503.png)
 
-* demo编写与运行（其中WebhookMessage、EventMeta struct来之kubewatch的源码）
+demo编写与运行（其中WebhookMessage、EventMeta struct来之kubewatch的源码）:
 
   ```
   package main
