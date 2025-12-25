@@ -45,7 +45,7 @@
                       repo: `yimacro.github.io`,
                       owner: 'yimacro',
                       admin: ['yimacro'],
-                      id: location.pathname,//因为这里不能超过50字符，所以做了处理，当超过50时自动截取前50
+                      id: md5(location.pathname), //md5处理路径
                  
                   });
                   gitalk.render('gitalk-container');
@@ -54,3 +54,4 @@
         </div>
     </body>
 </html>
+
