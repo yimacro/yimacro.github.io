@@ -9,7 +9,7 @@ categories: [AI]
 
 **摘要：** 本文为 Google 发布的《Agentic Design Patterns》阅读笔记，提炼出构建智能 Agent 的关键模式、工程挑战与前沿方向，便于快速浏览与复用。
 
-在过去的一段时间里，我深入研读了 Google 发布的《Agentic Design Patterns》文档。这不仅仅是一份技术手册，更像是 AI 系统设计的一张藏宝图。随着大语言模型（LLM）能力的飞跃，我们正在见证从单纯的“人机对话”（Chatbot）向“代理工作流”（Agentic Workflows）的范式转变。
+在过去的几天里，我深入研读了 Google 发布的《Agentic Design Patterns》文档。这不仅仅是一份技术手册，更像是 AI 系统设计的一张藏宝图。随着大语言模型（LLM）能力的飞跃，我们正在见证从单纯的“人机对话”（Chatbot）向“代理工作流”（Agentic Workflows）的范式转变。
 
 这份文档详细阐述了构建真正的智能 Agent 所需的设计模式。与其说是罗列技术点，不如说它在教我们如何像软件架构师一样思考 AI 系统。以下是我阅读后的核心感悟与总结。
 
