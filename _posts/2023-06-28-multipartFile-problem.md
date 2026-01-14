@@ -66,7 +66,7 @@ package io.choerodon.kb.infra.entity;
 /**
  * MultipartFile接口实现
  *
- * @author liyh
+ * @author yimacro
  * @date 2023/06/27
  */
 import org.springframework.lang.Nullable;
